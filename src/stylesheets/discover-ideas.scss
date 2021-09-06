@@ -1,0 +1,72 @@
+.discover-ideas {
+  font-family: "Montserrat", sans-serif;
+  padding: 0 10px;
+
+  h2 {
+    padding: 0 20px;
+    margin-bottom: 33px;
+  }
+
+  .idea {
+    color: #fff;
+    height: 120px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10px;
+    border-radius: 4px;
+
+    h3 {
+      padding: 0 48px;
+      text-align: center;
+      font-weight: 700;
+      font-size: 22px;
+      line-height: 27px;
+    }
+  }
+
+  .idea-sports {
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0.0001) 0%, rgba(0, 0, 0, 0.6) 100%), url("../images/sports-mobile.png");
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+
+  .idea-wellness {
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0.0001) 0%, rgba(0, 0, 0, 0.6) 100%), url("../images/wellness-mobile.png");
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+
+  .idea-extreme {
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0.0001) 0%, rgba(0, 0, 0, 0.6) 100%), url("../images/extreme-sports-mobile.png");
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+
+  .idea-games {
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0.0001) 0%, rgba(0, 0, 0, 0.6) 100%), url("../images/games-mobile.png");
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+
+  .idea-culture {
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0.0001) 0%, rgba(0, 0, 0, 0.6) 100%), url("../images/culture-mobile.png");
+    background-repeat: no-repeat;
+    background-position: center;
+
+    h3 {
+      padding: 0 19px;
+    }
+  }
+
+  .idea-enjoyment {
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0.0001) 0%, rgba(0, 0, 0, 0.6) 100%), url("../images/enjoyment-mobile.png");
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+
+  .idea-traveling {
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0.0001) 0%, rgba(0, 0, 0, 0.6) 100%), url("../images/traveling-mobile.png");
+    background-repeat: no-repeat;
+  }
+}

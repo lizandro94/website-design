@@ -1,5 +1,7 @@
 // Load CSS Reset from NPM
 @import "~normalize.css";
+@import "./common.scss";
 @import "./header-and-promo.scss";
 @import "./how-it-works.scss";
 @import "./meet-a-partner.scss";
+@import "./discover-ideas.scss";
