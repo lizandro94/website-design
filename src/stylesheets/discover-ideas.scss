@@ -9,9 +9,16 @@
       padding: 0 230px;
       margin: 90px 0 0 0;
     }
+
+    @media (min-width: 1440px) {
+      padding: 0 575px;
+    }
   }
 
   .ideas {
+    max-width: 940px;
+    margin: auto;
+
     @media (min-width: 768px) {
       display: flex;
       flex-wrap: wrap;
@@ -96,6 +103,12 @@
           background-repeat: no-repeat;
           background-position-y: center;
           background-position-x: 82%;
+        }
+
+        @media (min-width: 1440px) {
+          h3 {
+            padding: 0 53px;
+          }
         }
       }
 
