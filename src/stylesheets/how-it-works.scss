@@ -1,60 +1,105 @@
 .how-it-works {
-  padding: 0 10px;
   font-family: "Montserrat", sans-serif;
 
-  .step {
-    height: 240px;
-    border-radius: 4px;
-    color: #fff;
-    padding: 0 30px 0 20px;
-    margin-bottom: 10px;
-
-    button {
-      margin-top: 64px;
-      background: #ff4e50;
-      border-radius: 40px;
-      border: none;
-      font-weight: normal;
-      font-size: 10px;
-      line-height: 12px;
-      letter-spacing: 2px;
-      color: #fff;
-      width: 70px;
-      height: 20px;
-    }
-
-    h3 {
-      font-weight: bold;
-      font-size: 24px;
-      line-height: 14px;
-      margin-top: 15px;
-      margin-bottom: 40px;
-    }
-
-    p {
-      font-family: 'Roboto', sans-serif;
-      font-weight: 300;
-      font-size: 14px;
-      line-height: 14px;
-      color: #e3e3e3;
+  h2 {
+    @media (min-width: 768px) {
+      margin: 80px 0 30px 0;
     }
   }
 
-  .step1 {
-    background: linear-gradient(180deg, rgba(0, 0, 0, 0.0001) 0%, rgba(0, 0, 0, 0.6) 100%), url("../images/step-1-mobile.png");
-    background-repeat: no-repeat;
-    background-position: center;
-  }
+  .steps {
+    @media (min-width: 768px) {
+      display: flex;
+    }
 
-  .step2 {
-    background: linear-gradient(180deg, rgba(0, 0, 0, 0.0001) 0%, rgba(0, 0, 0, 0.6) 100%), url("../images/step-2-mobile.png");
-    background-repeat: no-repeat;
-    background-position: center;
-  }
+    .step-container {
+      padding: 0 10px 10px 10px;
 
-  .step3 {
-    background: linear-gradient(180deg, rgba(0, 0, 0, 0.0001) 0%, rgba(0, 0, 0, 0.6) 100%), url("../images/step-3-mobile.png");
-    background-repeat: no-repeat;
-    background-position: center;
+      .step {
+        height: 240px;
+        border-radius: 4px;
+        color: #fff;
+        padding: 0 30px 0 20px;
+        margin: 0 auto;
+        max-width: 328px;
+
+        @media (min-width: 768px) {
+          height: 400px;
+        }
+
+        button {
+          margin-top: 64px;
+          background: #ff4e50;
+          border-radius: 40px;
+          border: none;
+          font-weight: normal;
+          font-size: 10px;
+          line-height: 12px;
+          letter-spacing: 2px;
+          color: #fff;
+          width: 70px;
+          height: 20px;
+
+          @media (min-width: 768px) {
+            margin-top: 200px;
+          }
+        }
+
+        h3 {
+          font-weight: bold;
+          font-size: 24px;
+          line-height: 14px;
+          margin-top: 15px;
+          margin-bottom: 40px;
+        }
+
+        p {
+          font-family: "Roboto", sans-serif;
+          font-weight: 300;
+          font-size: 14px;
+          line-height: 14px;
+          color: #e3e3e3;
+        }
+      }
+
+      .step1 {
+        background: linear-gradient(180deg, rgba(0, 0, 0, 0.0001) 0%, rgba(0, 0, 0, 0.6) 100%), url("../images/step-1-mobile.png");
+        background-repeat: no-repeat;
+        background-position: center;
+
+        @media (min-width: 768px) {
+          background: linear-gradient(180deg, rgba(0, 0, 0, 0.0001) 0%, rgba(0, 0, 0, 0.6) 100%), url("../images/step-1-tablet.png");
+          background-repeat: no-repeat;
+          background-position-y: center;
+          background-position-x: 42%;
+        }
+      }
+
+      .step2 {
+        background: linear-gradient(180deg, rgba(0, 0, 0, 0.0001) 0%, rgba(0, 0, 0, 0.6) 100%), url("../images/step-2-mobile.png");
+        background-repeat: no-repeat;
+        background-position: center;
+
+        @media (min-width: 768px) {
+          background: linear-gradient(180deg, rgba(0, 0, 0, 0.0001) 0%, rgba(0, 0, 0, 0.6) 100%), url("../images/step-2-tablet.png");
+          background-repeat: no-repeat;
+          background-position-y: center;
+          background-position-x: 42%;
+        }
+      }
+
+      .step3 {
+        background: linear-gradient(180deg, rgba(0, 0, 0, 0.0001) 0%, rgba(0, 0, 0, 0.6) 100%), url("../images/step-3-mobile.png");
+        background-repeat: no-repeat;
+        background-position: center;
+
+        @media (min-width: 768px) {
+          background: linear-gradient(180deg, rgba(0, 0, 0, 0.0001) 0%, rgba(0, 0, 0, 0.6) 100%), url("../images/step-3-tablet.png");
+          background-repeat: no-repeat;
+          background-position-y: center;
+          background-position-x: 42%;
+        }
+      }
+    }
   }
 }
