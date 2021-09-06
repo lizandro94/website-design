@@ -1,5 +1,6 @@
 .meet-a-partner {
   font-family: "Montserrat", sans-serif;
+  text-align: center;
 
   h2 {
     font-weight: 700;
@@ -70,5 +71,17 @@
       line-height: 14px;
       color: rgb(102, 102, 102);
     }
+  }
+
+  button {
+    color: #ff4e50;
+    background: none;
+    border: 2px solid;
+    border-radius: 40px;
+    width: 280px;
+    height: 40px;
+    font-size: 14px;
+    font-weight: 700;
+    margin-top: 36px;
   }
 }
