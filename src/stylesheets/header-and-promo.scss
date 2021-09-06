@@ -3,20 +3,49 @@
   height: 540px;
   background-repeat: no-repeat;
   background-position: center;
+  font-family: "Montserrat", sans-serif;
+
+  @media (min-width: 768px) {
+    background: linear-gradient(rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 0.25)), url("../images/tablet-header.png");
+    background-position-y: 11%;
+    background-position-x: center;
+    background-repeat: no-repeat;
+    height: 700px;
+  }
 
   .header {
+    @media (min-width: 768px) {
+      display: flex;
+      padding-top: 20px;
+    }
+
     .logo {
       display: none;
+      font-weight: bold;
+      font-size: 20px;
+      line-height: 24px;
+      color: #fff;
+      align-items: end;
+      padding-left: 48px;
+      padding-bottom: 7px;
+      flex: 1;
+
+      @media (min-width: 768px) {
+        display: flex;
+      }
     }
 
     .buttons {
-      font-family: "Montserrat", sans-serif;
       text-align: center;
       font-size: 14px;
       height: 56px;
       display: flex;
       align-items: flex-end;
       justify-content: center;
+
+      @media (min-width: 768px) {
+        padding-right: 50px;
+      }
 
       button {
         color: #fff;
@@ -31,21 +60,28 @@
 
       .sign-up {
         border-radius: 40px;
-        border: 1px solid;
+        border: 2px solid;
       }
     }
   }
 
   .promo {
     padding-top: 97px;
-    font-family: 'Montserrat', sans-serif;
     font-weight: 700;
     color: #fff;
     text-align: center;
 
+    @media (min-width: 768px) {
+      padding-top: 126px;
+    }
+
     .logo {
       font-size: 20px;
       line-height: 24px;
+
+      @media (min-width: 768px) {
+        display: none;
+      }
     }
 
     h1 {
@@ -53,16 +89,29 @@
       line-height: 37px;
       margin-top: 26px;
       margin-bottom: 0;
+      padding: 0 20px;
+
+      @media (min-width: 768px) {
+        font-size: 52px;
+        line-height: 63px;
+        padding: 0 140px;
+      }
     }
 
     h2 {
-      font-family: 'Roboto', sans-serif;
+      font-family: "Roboto", sans-serif;
       font-weight: 300;
       font-size: 18px;
       line-height: 24px;
       color: #f7f3f2;
       padding: 0 40px;
       margin-top: 10px;
+
+      @media (min-width: 768px) {
+        font-size: 24px;
+        margin-bottom: 40px;
+        margin-top: 20px;
+      }
     }
 
     button {
@@ -71,10 +120,13 @@
       background: #ff4e50;
       border: none;
       border-radius: 40px;
-      font-family: 'Montserrat', sans-serif;
       font-weight: 700;
       color: #fff;
       font-size: 14px;
+
+      @media (min-width: 768px) {
+        width: 225px;
+      }
     }
   }
 }
