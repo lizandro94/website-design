@@ -1,72 +1,169 @@
 .discover-ideas {
   font-family: "Montserrat", sans-serif;
-  padding: 0 10px;
 
   h2 {
     padding: 0 20px;
     margin-bottom: 33px;
-  }
 
-  .idea {
-    color: #fff;
-    height: 120px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-bottom: 10px;
-    border-radius: 4px;
-
-    h3 {
-      padding: 0 48px;
-      text-align: center;
-      font-weight: 700;
-      font-size: 22px;
-      line-height: 27px;
+    @media (min-width: 768px) {
+      padding: 0 230px;
+      margin: 90px 0 0 0;
     }
   }
 
-  .idea-sports {
-    background: linear-gradient(180deg, rgba(0, 0, 0, 0.0001) 0%, rgba(0, 0, 0, 0.6) 100%), url("../images/sports-mobile.png");
-    background-repeat: no-repeat;
-    background-position: center;
-  }
-
-  .idea-wellness {
-    background: linear-gradient(180deg, rgba(0, 0, 0, 0.0001) 0%, rgba(0, 0, 0, 0.6) 100%), url("../images/wellness-mobile.png");
-    background-repeat: no-repeat;
-    background-position: center;
-  }
-
-  .idea-extreme {
-    background: linear-gradient(180deg, rgba(0, 0, 0, 0.0001) 0%, rgba(0, 0, 0, 0.6) 100%), url("../images/extreme-sports-mobile.png");
-    background-repeat: no-repeat;
-    background-position: center;
-  }
-
-  .idea-games {
-    background: linear-gradient(180deg, rgba(0, 0, 0, 0.0001) 0%, rgba(0, 0, 0, 0.6) 100%), url("../images/games-mobile.png");
-    background-repeat: no-repeat;
-    background-position: center;
-  }
-
-  .idea-culture {
-    background: linear-gradient(180deg, rgba(0, 0, 0, 0.0001) 0%, rgba(0, 0, 0, 0.6) 100%), url("../images/culture-mobile.png");
-    background-repeat: no-repeat;
-    background-position: center;
-
-    h3 {
-      padding: 0 19px;
+  .ideas {
+    @media (min-width: 768px) {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
     }
-  }
 
-  .idea-enjoyment {
-    background: linear-gradient(180deg, rgba(0, 0, 0, 0.0001) 0%, rgba(0, 0, 0, 0.6) 100%), url("../images/enjoyment-mobile.png");
-    background-repeat: no-repeat;
-    background-position: center;
-  }
+    .idea-container {
+      padding: 0 10px 10px 10px;
 
-  .idea-traveling {
-    background: linear-gradient(180deg, rgba(0, 0, 0, 0.0001) 0%, rgba(0, 0, 0, 0.6) 100%), url("../images/traveling-mobile.png");
-    background-repeat: no-repeat;
+      &.double {
+        width: 66.6666%;
+      }
+
+      @media (min-width: 768px) {
+        box-sizing: border-box;
+        padding: 10px;
+        width: 33.3333%;
+      }
+
+      .idea {
+        color: #fff;
+        height: 120px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 4px;
+        max-width: 304px;
+        margin: 0 auto;
+
+        @media (min-width: 768px) {
+          height: 310px;
+          max-width: 100%;
+        }
+
+        h3 {
+          padding: 0 48px;
+          text-align: center;
+          font-weight: 700;
+          font-size: 22px;
+          line-height: 27px;
+
+          @media (min-width: 768px) {
+            padding: 0 24px;
+          }
+        }
+      }
+
+      .idea-sports {
+        background: linear-gradient(180deg, rgba(0, 0, 0, 0.0001) 0%, rgba(0, 0, 0, 0.6) 100%),
+          url("../images/sports-mobile.png");
+        background-repeat: no-repeat;
+        background-position: center;
+
+        @media (min-width: 768px) {
+          background: linear-gradient(180deg, rgba(0, 0, 0, 0.0001) 0%, rgba(0, 0, 0, 0.6) 100%),
+            url("../images/sports-tablet.png");
+          background-repeat: no-repeat;
+          background-position: center;
+        }
+      }
+
+      .idea-wellness {
+        background: linear-gradient(180deg, rgba(0, 0, 0, 0.0001) 0%, rgba(0, 0, 0, 0.6) 100%),
+          url("../images/wellness-mobile.png");
+        background-repeat: no-repeat;
+        background-position: center;
+
+        @media (min-width: 768px) {
+          background: linear-gradient(180deg, rgba(0, 0, 0, 0.0001) 0%, rgba(0, 0, 0, 0.6) 100%),
+            url("../images/wellness-tablet.png");
+          background-repeat: no-repeat;
+          background-position-y: center;
+          background-position-x: 82%;
+        }
+      }
+
+      .idea-extreme {
+        background: linear-gradient(180deg, rgba(0, 0, 0, 0.0001) 0%, rgba(0, 0, 0, 0.6) 100%),
+          url("../images/extreme-sports-mobile.png");
+        background-repeat: no-repeat;
+        background-position: center;
+
+        @media (min-width: 768px) {
+          background: linear-gradient(180deg, rgba(0, 0, 0, 0.0001) 0%, rgba(0, 0, 0, 0.6) 100%),
+            url("../images/extreme-sports-tablet.png");
+          background-repeat: no-repeat;
+          background-position-y: center;
+          background-position-x: 82%;
+        }
+      }
+
+      .idea-games {
+        background: linear-gradient(180deg, rgba(0, 0, 0, 0.0001) 0%, rgba(0, 0, 0, 0.6) 100%),
+          url("../images/games-mobile.png");
+        background-repeat: no-repeat;
+        background-position: center;
+
+        @media (min-width: 768px) {
+          background: linear-gradient(180deg, rgba(0, 0, 0, 0.0001) 0%, rgba(0, 0, 0, 0.6) 100%),
+            url("../images/games-tablet.png");
+          background-repeat: no-repeat;
+          background-position-y: center;
+          background-position-x: 36%;
+        }
+      }
+
+      .idea-culture {
+        background: linear-gradient(180deg, rgba(0, 0, 0, 0.0001) 0%, rgba(0, 0, 0, 0.6) 100%),
+          url("../images/culture-mobile.png");
+        background-repeat: no-repeat;
+        background-position: center;
+
+        @media (min-width: 768px) {
+          background: linear-gradient(180deg, rgba(0, 0, 0, 0.0001) 0%, rgba(0, 0, 0, 0.6) 100%),
+            url("../images/culture-tablet.png");
+          background-repeat: no-repeat;
+          background-position: center;
+        }
+
+        h3 {
+          padding: 0 19px;
+        }
+      }
+
+      .idea-enjoyment {
+        background: linear-gradient(180deg, rgba(0, 0, 0, 0.0001) 0%, rgba(0, 0, 0, 0.6) 100%),
+          url("../images/enjoyment-mobile.png");
+        background-repeat: no-repeat;
+        background-position: center;
+
+        @media (min-width: 768px) {
+          background: linear-gradient(180deg, rgba(0, 0, 0, 0.0001) 0%, rgba(0, 0, 0, 0.6) 100%),
+            url("../images/enjoyment-tablet.png");
+          background-repeat: no-repeat;
+          background-position-y: center;
+          background-position-x: 18%;
+        }
+      }
+
+      .idea-traveling {
+        background: linear-gradient(180deg, rgba(0, 0, 0, 0.0001) 0%, rgba(0, 0, 0, 0.6) 100%),
+          url("../images/traveling-mobile.png");
+        background-repeat: no-repeat;
+
+        @media (min-width: 768px) {
+          background: linear-gradient(180deg, rgba(0, 0, 0, 0.0001) 0%, rgba(0, 0, 0, 0.6) 100%),
+            url("../images/traveling-tablet.png");
+          background-repeat: no-repeat;
+          background-position-y: center;
+          background-position-x: 12%;
+        }
+      }
+    }
   }
 }
