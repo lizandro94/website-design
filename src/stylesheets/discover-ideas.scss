@@ -22,7 +22,9 @@
       padding: 0 10px 10px 10px;
 
       &.double {
-        width: 66.6666%;
+        @media (min-width: 768px) {
+          width: 66.6666%;
+        }
       }
 
       @media (min-width: 768px) {
@@ -60,28 +62,24 @@
       }
 
       .idea-sports {
-        background: linear-gradient(180deg, rgba(0, 0, 0, 0.0001) 0%, rgba(0, 0, 0, 0.6) 100%),
-          url("../images/sports-mobile.png");
+        background: linear-gradient(180deg, rgba(0, 0, 0, 0.0001) 0%, rgba(0, 0, 0, 0.6) 100%), url("../images/sports-mobile.png");
         background-repeat: no-repeat;
         background-position: center;
 
         @media (min-width: 768px) {
-          background: linear-gradient(180deg, rgba(0, 0, 0, 0.0001) 0%, rgba(0, 0, 0, 0.6) 100%),
-            url("../images/sports-tablet.png");
+          background: linear-gradient(180deg, rgba(0, 0, 0, 0.0001) 0%, rgba(0, 0, 0, 0.6) 100%), url("../images/sports-tablet.png");
           background-repeat: no-repeat;
           background-position: center;
         }
       }
 
       .idea-wellness {
-        background: linear-gradient(180deg, rgba(0, 0, 0, 0.0001) 0%, rgba(0, 0, 0, 0.6) 100%),
-          url("../images/wellness-mobile.png");
+        background: linear-gradient(180deg, rgba(0, 0, 0, 0.0001) 0%, rgba(0, 0, 0, 0.6) 100%), url("../images/wellness-mobile.png");
         background-repeat: no-repeat;
         background-position: center;
 
         @media (min-width: 768px) {
-          background: linear-gradient(180deg, rgba(0, 0, 0, 0.0001) 0%, rgba(0, 0, 0, 0.6) 100%),
-            url("../images/wellness-tablet.png");
+          background: linear-gradient(180deg, rgba(0, 0, 0, 0.0001) 0%, rgba(0, 0, 0, 0.6) 100%), url("../images/wellness-tablet.png");
           background-repeat: no-repeat;
           background-position-y: center;
           background-position-x: 82%;
@@ -89,14 +87,12 @@
       }
 
       .idea-extreme {
-        background: linear-gradient(180deg, rgba(0, 0, 0, 0.0001) 0%, rgba(0, 0, 0, 0.6) 100%),
-          url("../images/extreme-sports-mobile.png");
+        background: linear-gradient(180deg, rgba(0, 0, 0, 0.0001) 0%, rgba(0, 0, 0, 0.6) 100%), url("../images/extreme-sports-mobile.png");
         background-repeat: no-repeat;
         background-position: center;
 
         @media (min-width: 768px) {
-          background: linear-gradient(180deg, rgba(0, 0, 0, 0.0001) 0%, rgba(0, 0, 0, 0.6) 100%),
-            url("../images/extreme-sports-tablet.png");
+          background: linear-gradient(180deg, rgba(0, 0, 0, 0.0001) 0%, rgba(0, 0, 0, 0.6) 100%), url("../images/extreme-sports-tablet.png");
           background-repeat: no-repeat;
           background-position-y: center;
           background-position-x: 82%;
@@ -104,14 +100,12 @@
       }
 
       .idea-games {
-        background: linear-gradient(180deg, rgba(0, 0, 0, 0.0001) 0%, rgba(0, 0, 0, 0.6) 100%),
-          url("../images/games-mobile.png");
+        background: linear-gradient(180deg, rgba(0, 0, 0, 0.0001) 0%, rgba(0, 0, 0, 0.6) 100%), url("../images/games-mobile.png");
         background-repeat: no-repeat;
         background-position: center;
 
         @media (min-width: 768px) {
-          background: linear-gradient(180deg, rgba(0, 0, 0, 0.0001) 0%, rgba(0, 0, 0, 0.6) 100%),
-            url("../images/games-tablet.png");
+          background: linear-gradient(180deg, rgba(0, 0, 0, 0.0001) 0%, rgba(0, 0, 0, 0.6) 100%), url("../images/games-tablet.png");
           background-repeat: no-repeat;
           background-position-y: center;
           background-position-x: 36%;
@@ -119,14 +113,12 @@
       }
 
       .idea-culture {
-        background: linear-gradient(180deg, rgba(0, 0, 0, 0.0001) 0%, rgba(0, 0, 0, 0.6) 100%),
-          url("../images/culture-mobile.png");
+        background: linear-gradient(180deg, rgba(0, 0, 0, 0.0001) 0%, rgba(0, 0, 0, 0.6) 100%), url("../images/culture-mobile.png");
         background-repeat: no-repeat;
         background-position: center;
 
         @media (min-width: 768px) {
-          background: linear-gradient(180deg, rgba(0, 0, 0, 0.0001) 0%, rgba(0, 0, 0, 0.6) 100%),
-            url("../images/culture-tablet.png");
+          background: linear-gradient(180deg, rgba(0, 0, 0, 0.0001) 0%, rgba(0, 0, 0, 0.6) 100%), url("../images/culture-tablet.png");
           background-repeat: no-repeat;
           background-position: center;
         }
@@ -137,14 +129,12 @@
       }
 
       .idea-enjoyment {
-        background: linear-gradient(180deg, rgba(0, 0, 0, 0.0001) 0%, rgba(0, 0, 0, 0.6) 100%),
-          url("../images/enjoyment-mobile.png");
+        background: linear-gradient(180deg, rgba(0, 0, 0, 0.0001) 0%, rgba(0, 0, 0, 0.6) 100%), url("../images/enjoyment-mobile.png");
         background-repeat: no-repeat;
         background-position: center;
 
         @media (min-width: 768px) {
-          background: linear-gradient(180deg, rgba(0, 0, 0, 0.0001) 0%, rgba(0, 0, 0, 0.6) 100%),
-            url("../images/enjoyment-tablet.png");
+          background: linear-gradient(180deg, rgba(0, 0, 0, 0.0001) 0%, rgba(0, 0, 0, 0.6) 100%), url("../images/enjoyment-tablet.png");
           background-repeat: no-repeat;
           background-position-y: center;
           background-position-x: 18%;
@@ -152,13 +142,11 @@
       }
 
       .idea-traveling {
-        background: linear-gradient(180deg, rgba(0, 0, 0, 0.0001) 0%, rgba(0, 0, 0, 0.6) 100%),
-          url("../images/traveling-mobile.png");
+        background: linear-gradient(180deg, rgba(0, 0, 0, 0.0001) 0%, rgba(0, 0, 0, 0.6) 100%), url("../images/traveling-mobile.png");
         background-repeat: no-repeat;
 
         @media (min-width: 768px) {
-          background: linear-gradient(180deg, rgba(0, 0, 0, 0.0001) 0%, rgba(0, 0, 0, 0.6) 100%),
-            url("../images/traveling-tablet.png");
+          background: linear-gradient(180deg, rgba(0, 0, 0, 0.0001) 0%, rgba(0, 0, 0, 0.6) 100%), url("../images/traveling-tablet.png");
           background-repeat: no-repeat;
           background-position-y: center;
           background-position-x: 12%;
