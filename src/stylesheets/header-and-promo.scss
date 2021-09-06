@@ -33,6 +33,10 @@
       @media (min-width: 768px) {
         display: flex;
       }
+
+      @media (min-width: 1440px) {
+        padding-left: 248px;
+      }
     }
 
     .buttons {
@@ -45,6 +49,10 @@
 
       @media (min-width: 768px) {
         padding-right: 50px;
+      }
+
+      @media (min-width: 1440px) {
+        padding-right: 291px;
       }
 
       button {
@@ -94,7 +102,12 @@
       @media (min-width: 768px) {
         font-size: 52px;
         line-height: 63px;
-        padding: 0 140px;
+        padding: 0 149px;
+      }
+
+      @media (min-width: 1440px) {
+        padding: 0 485px;
+        margin-bottom: 87px;
       }
     }
 
@@ -112,6 +125,10 @@
         margin-bottom: 40px;
         margin-top: 20px;
       }
+
+      @media (min-width: 1440px) {
+        display: none;
+      }
     }
 
     button {
@@ -126,6 +143,10 @@
 
       @media (min-width: 768px) {
         width: 225px;
+      }
+
+      @media (min-width: 768px) {
+        height: 40px;
       }
     }
   }
