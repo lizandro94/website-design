@@ -45,4 +45,11 @@ npm run start
 
 **Note:** If wizard is not cancelled (step 4), some files may be overwritten. In this case, just discard all changes before running `npm run start`
 
- 
+ ## Build for production
+To build a production-ready version, run the following command in the project’s root directory:
+```bash
+
+npm run build:dist
+
+```
+An optimized version of the site will be generated in `dist/` folder
