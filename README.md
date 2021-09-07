@@ -42,4 +42,7 @@ ctrl + c
 npm run start
 
 ```
+
+**Note:** If wizard is not cancelled (step 4), some files may be overwritten. In this case, just discard all changes before running `npm run start`
+
  
